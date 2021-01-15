@@ -1,0 +1,77 @@
+baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+title: PaperMod
+paginate: 8
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    title: Marco Hernandez
+    menu:
+      main:
+        - name: Tags
+          url: /tags/
+          weight: 10
+params:
+  env: production
+  description: "where"
+  author: Marco Hernandez
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: true
+  displayFullLangName: false
+  homeInfoParams:
+    Title: Marco Hernandez's Blog
+    Content: Golang, Rust, Linux, Distributed Systems, Cloud Native
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/tuli0"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/marcothernandez/"
+    - name: github
+      url: "https://github.com/marcoths"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
